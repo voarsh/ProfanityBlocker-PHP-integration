@@ -2,7 +2,7 @@
 
 namespace profanityblocker\profanityblocker;
 
-
+global $ErrCode2Msg;
 $ErrCode2Msg = array(
     0 => "There was an error contacting the ProfanityBlocker service. Please try again later.",
     104 => "There was an error with your licence for ProfanityBlocker. Please check your licence is valid and  active and try again.",
