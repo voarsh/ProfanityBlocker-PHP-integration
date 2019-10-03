@@ -1,0 +1,23 @@
+{
+    "name": "profanityblocker/profanityblocker",
+    "description": "A PHP Intergration For The Profanity Blocker API",
+    "keywords": ["Profanity Blocker", "Profanity", "Word Filter", "Filter"],
+    "homepage": "https://profanity-blocker.co.uk/",
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "David Crompton",
+            "email": "davidallancrompton@outlook.com",
+            "role": "Developer"
+       }
+    ],
+    "autoload": {
+        "psr-4": {
+            "profanityblocker\\profanityblocker\\": "src/"
+        },
+        "files": [
+            "src/ProfanityException.php",
+            "src/ProfanityService.php"
+        ]
+    }
+}
